@@ -28,12 +28,21 @@ A lightweight Docker-based solution to automate **MySQL database backups**, sche
 
 ## 🚀 How to Use
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/aiopspro/mysql-db-backup.git
 cd mysql-db-backup
 
 
+> ⚠️ **Important: Please review and modify the `Dockerfile` or `mysql_backup.sh` script to meet your environment and needs.**
 
+You may need to update:
+
+- 🛠️ **Database settings** – host, credentials, and database list
+- 📧 **Email addresses** – sender and recipient for notifications
+- 🌐 **Timezone setting** – adjust to match your region
+- ⏰ **Cron schedule** – customize timing as needed
+- 📁 **Volume path** – ensure the backup directory is correctly mapped
+- 🔐 **SMTP configuration** – especially if your SMTP requires authentication (`msmtp` supports this)
 
