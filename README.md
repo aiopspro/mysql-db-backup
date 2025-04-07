@@ -33,3 +33,11 @@ A lightweight Docker-based solution to automate **MySQL database backups**, sche
 ```bash
 git clone https://github.com/aiopspro/mysql-db-backup.git
 cd mysql-db-backup
+
+---
+
+### 2. Build the Docker Image
+```bash
+docker build -t mysql-backup:latest .
+
+
