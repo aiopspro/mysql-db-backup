@@ -2,7 +2,7 @@
 
 A lightweight Docker-based solution to automate **MySQL database backups**, schedule them using **cron**, and send consolidated **email reports** using `msmtp`.
 
-**🔗 GitHub Repo**: https://github.com/aiopspro/mysql-db-backu
+**🔗 GitHub Repo**: https://github.com/aiopspro/mysql-db-backup.git
 
 ---
 
@@ -31,5 +31,5 @@ A lightweight Docker-based solution to automate **MySQL database backups**, sche
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/aiopspro/mysql-db-backu.git
-cd mysql-db-backu
+git clone https://github.com/aiopspro/mysql-db-backup.git
+cd mysql-db-backup
